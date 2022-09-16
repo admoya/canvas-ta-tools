@@ -15,6 +15,7 @@ When active, the script will create a toolbar at the top of any discussion page:
 ![the discussion helper toolbar](./images/discussion-helper-toolbar.png)
 
 And next to each student's name on each of their posts and replies, there will be plus and minus buttons, along with a count of their current score for that discussion:
+
 ![plus an dminus buttons](./images/discussion-helper-buttons.png)
 
 Currently, the toolbar only has a "Save" button, that will post the points to a JSON file stored in the course's `Files` on Canvas. The button will be enabled when there are unsaved changes.
@@ -32,6 +33,7 @@ This is meant to be used in combination with the "Grade by question" feature of 
 The most efficient usage pattern of this tool is to grade on question for all respondents, then grade the next one, and so on, so that you can take advantage of the keybinds without having to scroll.
 
 The script will add a "Correct" button under the score of each question:
+
 ![a question score with a "correct" button under it](./images/grader-helper-button.png)
 
 Clicking that button will immediately give full credit to the student and click the "Update Scores" button (which saves the action). **Wait until the page refreshes** before moving on, as that will ensure the score was saved.
